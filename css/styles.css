@@ -34,9 +34,8 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   unicode-bidi: isolate;
-  
 }
-img{
+img {
   display: block;
 }
 /*================ /genel =================*/
@@ -202,6 +201,18 @@ img{
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 /* /SKİLL */
 /* TEAM */
