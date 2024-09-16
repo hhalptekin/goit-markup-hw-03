@@ -23,6 +23,9 @@ li {
 }
 a {
   text-decoration: none;
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 p {
   display: block;
@@ -31,11 +34,15 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   unicode-bidi: isolate;
+  
+}
+img{
+  display: block;
 }
 /*================ /genel =================*/
 
 /*================ HEADER =================*/
-.header-container {
+.container {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -46,7 +53,7 @@ p {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.page-header .header-container {
+.page-header .container {
   display: flex;
 }
 
