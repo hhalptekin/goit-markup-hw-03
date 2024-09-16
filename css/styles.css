@@ -229,6 +229,7 @@ img{
 .div-team-list-item {
   background-color: #fff;
   text-align: left;
+  border-radius: 0px 0px 4px 4px;
 }
 .div-team-list-item-title {
   font-weight: 500;
